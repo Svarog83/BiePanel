@@ -1,0 +1,11 @@
+svarog_panel:
+    resource: "@SvarogPanelBundle/Resources/config/routing.yml"
+    prefix:   /panel
+
+blog_show:
+    path:      /hello/{name}
+    defaults:  { _controller: SvarogBlogBundle:Default:index }
+
+svarog_blog:
+    resource: "@SvarogBlogBundle/Resources/config/routing.yml"
+    prefix:   /blog

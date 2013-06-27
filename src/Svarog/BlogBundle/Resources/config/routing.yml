@@ -1,0 +1,3 @@
+svarog_blog_homepage:
+    path:  /hello/{name}
+    defaults: { _controller: SvarogBlogBundle:Default:index }

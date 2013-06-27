@@ -1,0 +1,3 @@
+svarog_panel_homepage:
+    pattern:  /{name}
+    defaults: { _controller: SvarogPanelBundle:Default:index }
